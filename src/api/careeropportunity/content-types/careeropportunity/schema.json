@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "careeropportunities",
+  "info": {
+    "singularName": "careeropportunity",
+    "pluralName": "careeropportunities",
+    "displayName": "Career Opportunities",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Opportunities": {
+      "displayName": "Opportunities",
+      "type": "component",
+      "repeatable": true,
+      "component": "opportunities.opportunities"
+    }
+  }
+}

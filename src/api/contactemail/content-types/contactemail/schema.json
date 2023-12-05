@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactemails",
+  "info": {
+    "singularName": "contactemail",
+    "pluralName": "contactemails",
+    "displayName": "Contact Emails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    }
+  }
+}

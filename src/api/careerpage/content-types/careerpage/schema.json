@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "careerpages",
+  "info": {
+    "singularName": "careerpage",
+    "pluralName": "careerpages",
+    "displayName": "Career Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

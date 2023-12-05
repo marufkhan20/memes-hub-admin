@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homediscovers",
+  "info": {
+    "singularName": "homediscover",
+    "pluralName": "homediscovers",
+    "displayName": "Home Discover",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

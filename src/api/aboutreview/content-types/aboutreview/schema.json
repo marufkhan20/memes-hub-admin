@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutreviews",
+  "info": {
+    "singularName": "aboutreview",
+    "pluralName": "aboutreviews",
+    "displayName": "About Reviews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews"
+    }
+  }
+}
