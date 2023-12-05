@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homeabouts",
+  "info": {
+    "singularName": "homeabout",
+    "pluralName": "homeabouts",
+    "displayName": "Home About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_opportunities_opportunities",
+  "info": {
+    "displayName": "Opportunities"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

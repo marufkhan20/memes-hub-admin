@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "displayName": "reviews"
+  },
+  "options": {},
+  "attributes": {
+    "Avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Review": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    }
+  }
+}

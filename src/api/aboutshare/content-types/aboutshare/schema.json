@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutshares",
+  "info": {
+    "singularName": "aboutshare",
+    "pluralName": "aboutshares",
+    "displayName": "About Share",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

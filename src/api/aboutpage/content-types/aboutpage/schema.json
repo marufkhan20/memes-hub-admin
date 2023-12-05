@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutpages",
+  "info": {
+    "singularName": "aboutpage",
+    "pluralName": "aboutpages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homecommunities",
+  "info": {
+    "singularName": "homecommunity",
+    "pluralName": "homecommunities",
+    "displayName": "Home Community",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

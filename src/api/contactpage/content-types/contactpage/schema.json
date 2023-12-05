@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactpages",
+  "info": {
+    "singularName": "contactpage",
+    "pluralName": "contactpages",
+    "displayName": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}

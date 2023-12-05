@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footermenus",
+  "info": {
+    "singularName": "footermenu",
+    "pluralName": "footermenus",
+    "displayName": "Footer Menus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Menu": {
+      "displayName": "Menus",
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.menus"
+    }
+  }
+}
